@@ -7,7 +7,7 @@ const CONFIG = {
   // Informações do Negócio
   business: {
     name: 'Fabiana LASH STUDIO',           // Ex: "Nails Designer"
-    logoFile: 'lash studio.svg',               // Nome do arquivo do logo (deve estar na mesma pasta)
+    logoFile: 'logo.svg',               // Nome do arquivo do logo (deve estar na mesma pasta)
   },
 
   // Número MBWay
