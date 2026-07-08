@@ -1,44 +1,32 @@
 // ==========================================
 // CONFIGURAÇÃO DO SITE MBWAY - WHITE LABEL
 // ==========================================
-// Edite apenas este arquivo para personalizar o site para cada cliente
 
 const CONFIG = {
-  // Informações do Negócio
   business: {
-    name: 'Fabiana LASH STUDIO',           // Ex: "Nails Designer"
-    logoFile: 'logo.svg',               // Nome do arquivo do logo (deve estar na mesma pasta)
+    name: 'Fabiana LASH STUDIO',
+    logoFile: 'logo.svg',
   },
 
-  // Número MBWay
   mbway: {
-    phoneDisplay: '+351 925 882 318',        // Formato visual (com espaços)
-    phoneValue: '925882318',            // Número real (sem espaços, será copiado)
+    phoneDisplay: '+351 925 882 318',
+    phoneValue: '925882318',
   },
 
-// Cores e Estilo
-theme: {
-  // Cor principal
-  primaryColor: '#B87357',
-  primaryColorHover: '#9F6249',
+  theme: {
+    primaryColor: '#B87357',
+    primaryColorHover: '#9F6249',
+    backgroundColor: '#FAF4F1',
+    cardBackground: '#FFFFFF',
+    cardShadow: '0 8px 28px rgba(120, 78, 60, 0.12)',
+  },
 
-  // Fundo da página
-  backgroundColor: '#FAF4F1',
-
-  // Card
-  cardBackground: '#FFFFFF',
-  cardShadow: '0 8px 28px rgba(120, 78, 60, 0.12)',
-},
-
-  // Textos Customizáveis
   text: {
-    pageTitle: 'Pagamento MBWay',       // Título da aba do navegador
-    label: 'Número MBWay',              // Texto acima do número
-    buttonText: 'Copiar e Abrir MB WAY', // Texto do botão
-    successMessage: '✓ Número copiado: 925 882 318. Se a app MB WAY não abrir automaticamente, toque em "Abrir" na Play Store.',
-    errorMessage: 'Erro ao copiar. Seleciona o número manualmente.', // Mensagem de erro
-
-    // Instruções
+    pageTitle: 'Pagamento MBWay',
+    label: 'Número MBWay',
+    buttonText: 'Copiar e Abrir MB WAY',
+    successMessage: '✓ Número copiado! Agora toque em "Abrir MB WAY agora".',
+    errorMessage: 'Erro ao copiar. Seleciona o número manualmente.',
     step1: 'Clica no botão para copiar o número',
     step2: 'No MB WAY, cola o número para fazer o pagamento',
   },
