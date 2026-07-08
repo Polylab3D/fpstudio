@@ -35,7 +35,7 @@ theme: {
     pageTitle: 'Pagamento MBWay',       // Título da aba do navegador
     label: 'Número MBWay',              // Texto acima do número
     buttonText: 'Copiar e Abrir MB WAY', // Texto do botão
-    successMessage: '✓ Número copiado: 910 367 394. Se a app MB WAY não abrir automaticamente, toque em "Abrir" na Play Store.',
+    successMessage: '✓ Número copiado: 925 882 318. Se a app MB WAY não abrir automaticamente, toque em "Abrir" na Play Store.',
     errorMessage: 'Erro ao copiar. Seleciona o número manualmente.', // Mensagem de erro
 
     // Instruções
