@@ -156,6 +156,13 @@
     .hint strong {
       color: var(--text-secondary);
     }
+
+    .footer {
+      margin-top: 1.5rem;
+      color: var(--text-muted);
+      font-size: 11px;
+      line-height: 1.5;
+    }
   </style>
 </head>
 
@@ -189,6 +196,10 @@
       &nbsp;·&nbsp;
       <strong>2.</strong> <span id="step2">No MB WAY, cola o número</span>
     </p>
+
+    <footer class="footer">
+      <p id="footer-text">© 2026 PolyLAB 3D - Todos os direitos reservados</p>
+    </footer>
   </main>
 
   <script src="config.js"></script>
@@ -281,6 +292,11 @@
 
       document.getElementById("step2").textContent =
         CONFIG.text.step2;
+
+      document.getElementById("footer-text").textContent =
+        (CONFIG.footer && CONFIG.footer.text)
+          ? CONFIG.footer.text
+          : "© 2026 PolyLAB 3D - Todos os direitos reservados";
 
       const logo = document.getElementById("logo");
       logo.src = CONFIG.business.logoFile;
